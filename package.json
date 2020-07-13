@@ -1,8 +1,24 @@
 {
   "name": "action-collect-manage",
   "version": "1.0.0",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest"
+  },
   "description": "collect pub-sub action",
   "main": "index.tsx",
   "author": "1520406335@qq.com",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^26.0.4",
+    "jest": "^26.1.0",
+    "rollup-plugin-sourcemaps": "^0.6.2",
+    "rollup-plugin-typescript": "^1.0.1",
+    "ts-jest": "^26.1.1",
+    "tslib": "^2.0.0",
+    "typescript": "^3.9.6"
+  },
+  "dependencies": {
+    "rxjs": "^6.6.0"
+  }
 }
