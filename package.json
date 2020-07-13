@@ -1,0 +1,8 @@
+{
+  "name": "action-collect-manage",
+  "version": "1.0.0",
+  "description": "collect pub-sub action",
+  "main": "index.tsx",
+  "author": "1520406335@qq.com",
+  "license": "MIT"
+}
