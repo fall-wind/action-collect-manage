@@ -26,6 +26,7 @@ export default class PubSubManage {
 		this.itemMap = {};
 	}
 
+	// 为 schedule 返回 subject，做延迟触发
 	on(type: string, fn?: (...args: any[]) => void): Subject<any> {
 		const map = this.itemMap;
 		let item = map[type];
